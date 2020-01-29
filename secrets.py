@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import  configparser
 import os
 import base64
@@ -17,8 +18,8 @@ port = f.decrypt(config['gcal']['port'].encode('ASCII')).decode('ASCII')
 sid = f.decrypt(config['gcal']['sid'].encode('ASCII')).decode('ASCII')
 
 
-print(user)
-print(passwd)
-print(host)
-print(port)
-print(sid)
+# print(user)
+# print(passwd)
+# print(host)
+# print(port)
+# print(sid)
